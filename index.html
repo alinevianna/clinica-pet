@@ -3,56 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Clínica PetPet</title>
 </head>
 <body>
     <div class="all">
         <!-- Sessão de Menu  -->
         <section class="menu">
-            <header>
-                <img src="#" alt="logo">
-                <h3 class="menu__title">Clinica PetPet</h3>
-            </header>
-            <nav>
-                <ul class="menu__list">
-                    <li class="menu__list__item"></li>
-                    <li class="menu__list__item"></li>
-                    <li class="menu__list__item"></li>
-                    <li class="menu__list__item"></li>
-                    <li class="menu__list__item"></li>
-                </ul>
-            </nav>
+            <div class="menu__top">
+                <header>
+                    <img src="assets/img/logo.png" alt="logo" class="logo">
+                    <h3 class="menu__title">Clínica PetPet</h3>
+                </header>
+                <nav>
+                    <ul class="menu__list">
+                        <li class="menu__list__item"><a href="#about">Sobre</a></li>
+                        <li class="menu__list__item"><a href="#services">Serviços</a></li>
+                        <li class="menu__list__item"><a href="">Exames</a></li>
+                        <li class="menu__list__item"><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!--<div class="wave-container"></div>-->
         </section>
-        <div class="wave-container"></div>
+
         <!-- Sessão Titulo/Imagem  -->
         <section class="title">
             <div class="title__div">
-                <img src="" alt="" class="title__image">
                 <div class="title__container">
                     <h2 class="title__bio">
-
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, laborum.
                     </h2>
                     <h3 class="title__subsection">
-
+                        Lorem ipsum dolor sit. Lorem
                     </h3>
                     <ul class="title__contact">
-                        <li class="title_contact__item"><button class="btn-contac"><a href=""></a></button></li>
-                        <li class="title_contact__item"><button class="btn-contac"><a href=""></a></button></li>
-                        <li class="title_contact__item"><button class="btn-contac"><a href=""></a></button></li>
+                        <li class="title_contact__item"><a href="#"><button class="btn-contact-wpp">WhatsApp</button></a></li>
                     </ul>
+                </div>
+                <div class="title__container__img">
+                    <img src="assets/img/pit-blue.png" alt="" class="title__image">
                 </div>
             </div>
         </section>
         <!-- Sessão Sobre  -->
+        <div class="wave-container"></div>
         <section class="about">
             <div class="about__container">
-                <h3 class="about__title">A Clinica</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam laudantium at exercitationem voluptatem? At vitae atque quam, neque dicta officia ea recusandae cum inventore dolorem dolores excepturi quas earum tempora iure impedit. Vel impedit suscipit quas maiores voluptate, omnis expedita, repellat in doloremque necessitatibus pariatur nesciunt perferendis quasi, consectetur unde fuga ad assumenda veniam maxime iusto! Neque repudiandae vero consequatur autem saepe modi fuga molestias sapiente numquam perferendis vel ducimus sint nobis minima animi, excepturi necessitatibus tempora quis? Impedit, possimus! Ab rerum laudantium iste similique? Recusandae nihil excepturi, amet repudiandae natus tempora consequuntur ullam. Consequuntur quae quos tempore fugiat.</p>
+                <h3 class="about__title" id="about">A Clinica</h3>
+                <div class="about__description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam laudantium at exercitationem voluptatem? At vitae atque quam, neque dicta officia ea recusandae cum inventore dolorem dolores excepturi quas earum tempora iure impedit. Vel impedit suscipit quas maiores voluptate, omnis expedita, repellat in doloremque necessitatibus pariatur nesciunt perferendis quasi, consectetur unde fuga ad assumenda veniam maxime iusto! Neque repudiandae vero consequatur autem saepe modi fuga molestias sapiente numquam perferendis vel ducimus sint nobis minima animi, excepturi necessitatibus tempora quis? Impedit, possimus! Ab rerum laudantium iste similique? Recusandae nihil excepturi, amet repudiandae natus tempora consequuntur ullam. Consequuntur quae quos tempore fugiat.</p>
+                </div>
             </div>
         </section>
         <!-- Sessão Serviços -->
+        <div class="second-wave-container"></div>
         <section class="services">
-            <h3 class="services__title">Serviços</h3>
+            <h3 class="services__title" id="services">Serviços</h3>
             <div class="services__container">
                 <div class="services__box"></div>
                 <div class="services__box"></div>
@@ -63,7 +70,7 @@
         </section>
 
         <!-- Sessão de informações -->
-        <section class="info">
+        <!-- <section class="info">
             <div id="info_contact" class="forminfo__contact">
                 <div class="forminfo--left">
                     <img class="forminfo__img" src="assets\contact_image.png">
@@ -84,7 +91,7 @@
                     </form>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
 </body>
 </html>
